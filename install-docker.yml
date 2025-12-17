@@ -1,0 +1,5 @@
+- hosts: localhost
+  tasks:
+    - name: Install Docker
+      debug:
+        msg: "Docker installation task"
